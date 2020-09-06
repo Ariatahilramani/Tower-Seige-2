@@ -26,32 +26,33 @@ ledge = new Ground(505,400,210,20);
 ground= new Ground(800,500,2000,30)
 
 //bottom row
-box1=new Box(415,370,30,40);
-box2=new Box(445,370,30,40);
-box3=new Box(475,370,30,40);
-box4=new Box(505,370,30,40);
-box5=new Box(535,370,30,40);
-box6=new Box(565,370,30,40);
-box7=new Box(595,370,30,40);
+box1=new Box(415,200,30,40);
+box2=new Box(445,200,30,40);
+box3=new Box(475,200,30,40);
+box4=new Box(505,200,30,40);
+box5=new Box(535,200,30,40);
+box6=new Box(565,200,30,40);
+box7= new Box(595,200,30,40);
 
 //third row
-box8=new Box(445,330,30,40);
-box9=new Box(475,330,30,40);
-box10=new Box(505,330,30,40);
-box11=new Box(535,330,30,40);
-box12= new Box(565,330,30,40);
+
+box8=new Box(445,100,30,40);
+box9=new Box(475,100,30,40);
+box10=new Box(505,100,30,40);
+box11=new Box(535,100,30,40);
+box12= new Box(565,100,30,40);
 
 //second row
-box13= new Box(475,290,30,40);
-box14 = new Box(505,290,30,40);
-box15 = new Box(535,290,30,40);
+box13= new Box(475,300,30,40);
+box14 = new Box(505,300,30,40);
+box15 = new Box(535,300,30,40);
 
 //top row
 box16= new Box(505,250,30,40);
 
-hexagon = new Hexagon(100,300,30,30);
+hexagon = new Hexagon(200,300,30,30);
 
-sling= new Sling(hexagon.body,{x:100, y:300})
+sling= new Sling(hexagon.body,{x:200, y:300})
 
 Engine.run(engine);
   
@@ -73,6 +74,7 @@ function draw() {
   box5.display();
   box6.display();
   box7.display();
+
 
   box8.display();
   box9.display();
